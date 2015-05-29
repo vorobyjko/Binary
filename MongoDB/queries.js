@@ -1,5 +1,7 @@
 use BinaryMongoDB
 
+db.People.find( {"scores.score" : {$gt : 90, $lt : 95} } ).pretty()
+
 db.People.aggregate([
 	{
 		$unwind : "$scores"
@@ -28,3 +30,4 @@ db.People.update(
 )
 
 db.People.find({"name" : "Vinnie Auerbach"}).pretty()
+
