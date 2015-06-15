@@ -1,0 +1,65 @@
+body {
+	font-size: 14px;
+	font-family: "Arial";
+}
+
+#listContainer, #container {
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+
+.button {
+	background-color: #006FCA;
+	color: #ffffff;
+	width: auto;
+	height: 10px;
+	padding: 10px 15px;
+	margin: 0px 12px 0px 0px;
+	/* float: left; */
+	display: inline-block;
+	cursor: pointer;
+	line-height: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	-moz-box-shadow: 2px 2px 3px #cccccc;
+	-webkit-box-shadow: 2px 2px 3px #cccccc;
+	box-shadow: 2px 2px 3px #cccccc;
+}
+
+.button:active {
+	background-color: #0058CA;
+}
+
+
+#goodsValue {
+	height: 10px;
+	padding: 10px;
+	width: 295px;
+	color: #cccccc;
+	outline : 0px solid transparent;
+	border: 1px solid #cccccc;
+	-moz-box-shadow: inset 0px 1px 2px #cccccc;
+	-webkit-box-shadow: inset 0px 1px 2px #cccccc;
+	box-shadow: inset 0px 1px 2px #cccccc;
+}
+
+#listLine {
+	width: 400px;
+	border : 1px solid #cccccc;
+	padding: 10px;
+	word-wrap: break-word;
+}
+
+#listLine img {
+	width: 24px;
+	height: 24px;
+	float: right;
+	visibility: hidden;
+}
+
+.strikeoutItem {
+	text-decoration: line-through;
+	color: #ccc
+}
